@@ -17,7 +17,10 @@
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
-
+    display:flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    
 }
 
 .um-produto{
@@ -28,6 +31,7 @@
 
 .um-produto img{
     width: 300px;
+
 }
 
 .descricao{
@@ -35,7 +39,9 @@
     margin: 10px;
 }
 
-
+.h3{
+    margin: 10px;
+}
 .botao{
     display: block;
     width: 150px;
